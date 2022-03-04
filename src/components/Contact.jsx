@@ -2,11 +2,15 @@ import React from 'react'
 
 export const Contact = () => {
     return (
-        <div className='container contact'>
-            <div className="row position-relative">
+        <div className='container contact '>
+            <div className="row ">
                 <div className="col-7">
-                    <form className='contact-form'>
-                        <div className="d-flex justify-content-around">
+                    <form className='contact-form text-light'>
+                        <div>
+                            <p className="fs-4">Contact Us</p>
+                            <h1>Get in Touch</h1>
+                        </div>
+                        <div className="d-flex justify-content-between">
                             <div className="">
                                 <label for="exampleInputEmail1" className="form-label">First Name</label>
                                 <input type="email" className="form-control bg-transparent" placeholder='First Name' id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -16,7 +20,7 @@ export const Contact = () => {
                                 <input type="password" className="form-control bg-transparent" placeholder='Last Name' id="exampleInputPassword1" />
                             </div>
                         </div>
-                        <div className="d-flex justify-content-around">
+                        <div className="d-flex justify-content-between">
                             <div className="">
                                 <label for="exampleInputEmail1" className="form-label">Email address</label>
                                 <input type="email" className="form-control bg-transparent" placeholder='Email address' id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -26,15 +30,12 @@ export const Contact = () => {
                                 <input type="password" className="form-control bg-transparent" placeholder='Subject' id="exampleInputPassword1" />
                             </div>
                         </div>
-                        <div className='mx-5'>
-                            <div class="mx-4">
-                                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                                <textarea className="form-control bg-transparent" id="exampleFormControlTextarea1 " placeholder='Description' rows="3"></textarea>
-                            </div>
+                        <div className="">
+                            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                            <textarea className="form-control bg-transparent" id="exampleFormControlTextarea1 " placeholder='Description' rows="3"></textarea>
                         </div>
-                        <div className='mx-5'>
-
-                            <button type="submit" className="btn btn-primary mx-4">Submit</button>
+                        <div className=''>
+                            <button type="submit" className="btn btn-primary ">Submit</button>
                         </div>
                     </form>
                 </div>

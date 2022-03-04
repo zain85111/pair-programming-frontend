@@ -4,7 +4,7 @@
 }
 
 .main{
-    background-color: green;
+    /* background-color: green; */
     min-height: 80vh;
 }
 
@@ -19,17 +19,19 @@
 
 .content{
     min-height: 100vh;
-    background-color: coral;
+    background-color: rgb(156, 156, 156);
 }
 
 .content-nav{
-    background-color: purple;
+    background-color: rgb(45, 45, 150);
     min-height: 10vh;
 }
 
 .content-banner{
+    background-color: rgb(22, 22, 80);
     min-height: 60vh;
     margin: 10% 0;
+    box-shadow: black 0 0 10px;
 }
 
 .banner-img{
@@ -39,13 +41,14 @@
 }
 
 .contact{
-    background-color: darkblue;
+    background-color: rgb(22, 22, 80);
     margin: 10% 0;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
 }
 
 .contact-form{
     /* background-color: brown; */
-    min-width: 100%;
     min-height: 80%;
     position: relative;
     top: 10%;
@@ -56,6 +59,12 @@
 }
 
 .footer{
-    background-color: brown;
+    /* background-color: brown; */
     min-height: 40vh;
+}
+
+.code-imgs{
+    /* background-color: aqua; */
+    height: 300px;
+    width: 50%;
 }
