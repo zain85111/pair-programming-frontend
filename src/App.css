@@ -68,3 +68,21 @@
     height: 300px;
     width: 50%;
 }
+
+.loginpage{
+    min-height: 100vh;
+}
+
+.sidebar{
+    background-color: darkblue;
+    min-width: 20%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+
+
+.login-img{
+    border-radius: 100%;
+}

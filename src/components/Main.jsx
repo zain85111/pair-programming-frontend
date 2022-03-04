@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Main = () => {
     return (
@@ -8,7 +9,7 @@ export const Main = () => {
                     <h1 className='my-3'>COLLABORATIONS MADE SIMPLE!!!!</h1>
                     <h5 className='my-3'>Developers and companies around the globe collaborate and hire at CodePair - the simplest yet powerful collaboration platform</h5>
                     <div className='my-3'>
-                        <button className="btn btn-light px-4" >SIGN UP</button>
+                        <Link to={'/signup'} className="btn btn-light px-4" >SIGN UP</Link>
                     </div>
                 </div>
             </div>

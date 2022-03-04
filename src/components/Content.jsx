@@ -1,14 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Contact } from './Contact'
 import { Footer } from './Footer'
+
 
 export const Content = () => {
     return (
         <div className='content'>
             <div className="d-flex align-items-center content-nav">
-                <a className='btn text-light mx-3'>Code</a>
-                <a className='btn text-light mx-3'>Collaborate</a>
-                <a className='btn text-light mx-3'>Hire</a>
+                <Link to={'/'} className='btn text-light mx-3'>Code</Link>
+                <Link to={'/'} className='btn text-light mx-3'>Collaborate</Link>
+                <Link to={'/'} className='btn text-light mx-3'>Hire</Link>
             </div>
             {/* Content 1 */}
             <div className="container text-dark">
@@ -18,7 +20,7 @@ export const Content = () => {
                             <h1 className='my-3'>STORE YOUR CODE IN CLOUD FOREVER.</h1>
                             <h5 className='my-3'>Code you favorite and challenging problems on Codepair and store them on our forever free cloud platform to access it from anywhere, anytime.</h5>
                             <div className='my-3'>
-                                <a className="fs-4 text-light" >Sign Up For CodePair</a>
+                                <Link to={'/signup'} className="fs-4 text-light" >Sign Up For CodePair</Link>
                             </div>
                         </div>
                     </div>
@@ -36,7 +38,7 @@ export const Content = () => {
                             <h1 className='my-3'>STORE YOUR CODE IN CLOUD FOREVER.</h1>
                             <h5 className='my-3'>Code you favorite and challenging problems on Codepair and store them on our forever free cloud platform to access it from anywhere, anytime.</h5>
                             <div className='my-3'>
-                                <a className="fs-4 text-light" >Sign Up For CodePair</a>
+                                <Link to={'/signup'} className="fs-4 text-light" >Sign Up For CodePair</Link>
                             </div>
                         </div>
                     </div>
@@ -57,7 +59,7 @@ export const Content = () => {
                             <h1 className='my-3'>STORE YOUR CODE IN CLOUD FOREVER.</h1>
                             <h5 className='my-3'>Code you favorite and challenging problems on Codepair and store them on our forever free cloud platform to access it from anywhere, anytime.</h5>
                             <div className='my-3'>
-                                <a className="fs-4 text-light" >Sign Up For CodePair</a>
+                                <Link to={'/signup'} className="fs-4 text-light" >Sign Up For CodePair</Link>
                             </div>
                         </div>
                     </div>
