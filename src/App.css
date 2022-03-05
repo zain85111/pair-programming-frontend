@@ -69,20 +69,43 @@
     width: 50%;
 }
 
-.loginpage{
+.pageHeight{
     min-height: 100vh;
 }
 
+.circle-img{
+    border-radius: 100%;
+}
+
 .sidebar{
-    background-color: darkblue;
-    min-width: 20%;
+    background-color: rgb(22, 22, 80);
+    min-height: 100vh;
+    min-width: 25%;
     color: white;
-    text-align: center;
-    padding-top: 4%;
+    padding-top: 1%;    
+}
+
+.sideNav{
+    position: sticky;
+    background-color: white;
+    height: 600px;
+    color: black;
+    text-align: left;
+    border-radius: 20px;
+    margin: 10%;
+}
+
+.sideNav-btn{
+    background-color: rgb(241, 240, 240);
+    padding: 4%;
+    border-radius:10px ;
+
 }
 
 
-
-.login-img{
-    border-radius: 100%;
+.card-section {
+    background-color: rgb(241, 240, 240);
+    padding: 2% 3%;
+    border-radius:10px;
+    border-left:solid 10px orange;
 }

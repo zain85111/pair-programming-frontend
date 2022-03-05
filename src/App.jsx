@@ -5,6 +5,8 @@ import { Content } from './components/Content';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
+import { ProblemPage } from './pages/ProblemPage';
+import { MatchingUsers } from './pages/MatchingUsers';
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
       </Route>
       <Route path={'/signup'}>
         <Signup/>
+      </Route>
+      <Route path={'/problemPage'}>
+        <ProblemPage/>
+      </Route>
+      <Route path={'/matchingUsers'}>
+        <MatchingUsers/>
       </Route>
     </Router>
   );
