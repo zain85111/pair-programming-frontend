@@ -190,3 +190,31 @@
     background-color: whitesmoke;
     border-radius: 20px;
 }
+
+.admin-link {
+    color: black;
+    text-decoration: none;
+}
+
+.stats-link {
+    background-color: rgba(223, 223, 223, 0.384);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .1s ease-in-out;
+}
+
+.stats-link:hover{
+    background-color: rgba(223, 223, 223, 0.479);
+    color: whitesmoke;
+}
+
+.sideNav-btn:active {
+    background: rgb(16, 16, 59);
+    color: white;
+}
+
+.active{
+    background-color: rgb(33, 33, 116);
+    color: white;
+}

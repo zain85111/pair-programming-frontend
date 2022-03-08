@@ -35,7 +35,8 @@ export const Signup = () => {
               <label for="exampleInputPassword1" className=" form-label mx-3">Keep me logged in</label>
           </div>
           <div className="mb-4 d-flex justify-content-between">
-              <button type="submit" className=" btn btn-primary px-5">Sign Up</button>
+              {/* <button type="submit" className=" btn btn-primary px-5">Sign Up</button> */}
+              <Link to={'/adminDashboard'}  className=" btn btn-primary px-5">Sign Up</Link>
               <Link to={'/login'} className='btn text-dark'>Already Have an Account?</Link>
           </div>
           <h4 className="text-center mb-3">OR</h4>    
