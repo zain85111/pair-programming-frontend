@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export const Login = () => {
     return (
         <div className='d-flex justify-content-start h-75 pageHeight'>
-            <div className='sidebar'>
-                <h1>CodePair</h1>
+            <div className='sidebar d-flex flex-column align-items-center'>
+                <h1 className='my-3'>CodePair</h1>
                 <Link className='btn btn-transparent text-light' to='/'>Back to Homepage</Link>
             </div>
             <div className="form-section col d-flex flex-column justify-content-evenly align-items-center">

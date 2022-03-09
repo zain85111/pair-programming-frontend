@@ -5,8 +5,8 @@ export const Signup = () => {
   return (
       
     <div className='d-flex justify-content-start h-75 pageHeight'>
-      <div className='sidebar'>
-        <h1>CodePair</h1>
+      <div className='sidebar d-flex flex-column align-items-center'>
+        <h1 className='my-3'>CodePair</h1>
         <Link className='btn btn-transparent text-light' to='/'>Back to Homepage</Link>
       </div>
       <div className="form-section col d-flex flex-column justify-content-evenly align-items-center">
@@ -16,7 +16,6 @@ export const Signup = () => {
         <form className='container w-50 '>
           <h4 className='text-center mb-4'>Signup </h4>
           <div className="d-flex justify-content-between">
-
             <div className="mb-4">
                 <input type="email" className="form-control bg-transparent border-2 " placeholder='First Name' id="exampleInputEmail1" aria-describedby="emailHelp" />
             </div>

@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 export const Profile = () => {
   return (
     <div className='App text-light'>
-      <div className="center-section row">
+      <div className="center-section profile-bg row">
         <div className=" col-4 profile-section-sideBar  justify-content-star">
           <Link to='/matchingUsers' className='btn btn-dark bg-transparent border-0 '><span className="material-icons m-2">chevron_left</span></Link>
           <div className='d-flex flex-column align-items-center'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFzSDeCJ7jEOCJceGOu897ZOpsNDL_b09sKadR1RpwOyP0Nv6p165vLu2Ocn9DYao2S8&usqp=CAU" alt="" className="circle-img mb-3" width={100} />
             <h5 className='mb-3'>@johnDoe</h5>
-            <button className="profile-section-btn">Edit Profile</button>
+            <Link to={'/editProfile'} className="profile-section-btn">Edit Profile</Link> 
           </div>
         </div>
         <div className="col-8 profile-details-section d-flex flex-column justify-content-evenly align-items-cente px-5">

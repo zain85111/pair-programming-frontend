@@ -15,6 +15,8 @@ import { AdminUsers } from './pages/AdminUsers';
 import { AdminProblems } from './pages/AdminProblems';
 import { AdminComplains } from './pages/AdminComplains';
 import { AdminFeedback } from './pages/AdminFeedback';
+import { CodingPage } from './pages/CodingPage';
+import { EditProfile } from './pages/EditProfile';
 
 function App() {
   return (
@@ -41,11 +43,14 @@ function App() {
       <Route path={'/messeges'}>
         <Messages/>
       </Route>
-      <Route path={'/notifications'}>
-        <Notifications/>
+      <Route path={'/codingPage'}>
+        <CodingPage/>
       </Route>
       <Route path={'/profile'}>
         <Profile/>
+      </Route>
+      <Route path={'/editProfile'}>
+        <EditProfile/>
       </Route>
       <Route path={'/adminDashboard'}>
         <AdminDashboard/>

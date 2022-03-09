@@ -80,7 +80,7 @@ export const ProblemPage = () => {
                                 <div className="mb-5   card-section">
                                     <div className="d-flex justify-content-between align-items-center">
                                     <p ><b>Title:</b> <span>{p.title}</span></p>
-                                    <Link to={'#'+p.id} className="btn btn-light bg-light">Start Coding</Link>
+                                    <Link to={'/codingPage'} className="btn btn-light bg-light">Start Coding</Link>
                                     </div>
                                     <p ><b>Description:</b> <span><p >{ p.description}</p></span></p>
                                 </div>
