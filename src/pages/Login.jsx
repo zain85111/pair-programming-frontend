@@ -6,7 +6,11 @@ export const Login = () => {
         <div className='d-flex justify-content-start h-75 pageHeight'>
             <div className='sidebar d-flex flex-column align-items-center'>
                 <h1 className='my-3'>CodePair</h1>
-                <Link className='btn btn-transparent text-light' to='/'>Back to Homepage</Link>
+                <Link to={'/'} className='d-flex justify-content-center align-items-center stats-link bg-transparent py-2'>
+                    <span class="material-icons">chevron_left</span>
+                    <h6  className="me-3 mt-2">Back to Homepage</h6>
+                </Link>
+
             </div>
             <div className="form-section col d-flex flex-column justify-content-evenly align-items-center">
                 <div>

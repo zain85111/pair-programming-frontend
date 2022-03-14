@@ -1,11 +1,12 @@
 import React from 'react'
+import ContactFormImg from '../assets/images/contactFormImg.png'
 
 export const Contact = () => {
     return (
         <div className='container contact '>
-            <div className="row ">
-                <div className="col-7">
-                    <form className='contact-form text-light'>
+            <div className="row">
+                <div className="col-8">
+                    <form className='contact-form container text-light px-5'>
                         <div>
                             <p className="fs-4">Contact Us</p>
                             <h1>Get in Touch</h1>
@@ -35,12 +36,12 @@ export const Contact = () => {
                             <textarea className="form-control bg-transparent" id="exampleFormControlTextarea1 " placeholder='Description' rows="3"></textarea>
                         </div>
                         <div className=''>
-                            <button type="submit" className="btn btn-primary ">Submit</button>
+                            <button type="submit" className="btn btn-primary btn-lg">Submit</button>
                         </div>
                     </form>
                 </div>
-                <div className="col-5">
-                    <img src="https://s3-us-west-2.amazonaws.com/capublic/blog/56/code-editor.png" class="img-fluid" alt="" />
+                <div className="col-4">
+                    <img src={ContactFormImg} className="img-fluid" alt="" />
                 </div>
             </div>
         </div>

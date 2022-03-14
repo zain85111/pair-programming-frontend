@@ -1,10 +1,16 @@
 .App {
-    background-color: rgb(22, 22, 80);
+    /* background-color: rgb(22, 22, 80); */
     min-height: 100vh;
 }
 
 .main{
     min-height: 80vh;
+}
+
+.mainBg{
+    background-image: url('./assets/images/mainBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-content{
@@ -18,12 +24,24 @@
 
 .content{
     min-height: 100vh;
-    background-color: rgb(156, 156, 156);
+    background-image: url('./assets/images/contentBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(22, 22, 80);
+    background: linear-gradient(180deg, rgba(22, 22, 80, 1) 4%, rgba(211, 211, 211, 1) 31%);
+
+}
+
+.contentImg1-1{
+    position: absolute;
+    left: 20%;
+    top: 50%;
 }
 
 .content-nav{
-    background-color: rgb(45, 45, 150);
+    background-color: rgba(218, 218, 218, 0.144);
     min-height: 10vh;
+    margin-bottom: 10%;
 }
 
 .content-banner{
@@ -31,7 +49,11 @@
     min-height: 60vh;
     margin: 10% 0;
     box-shadow: black 0 0 10px;
+    background-image: url('./assets/images/mainBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .banner-img{
     position: absolute;
@@ -50,14 +72,45 @@
     min-height: 80%;
     position: relative;
     top: 10%;
-    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-image: url('./assets/images/contentBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer{
     min-height: 40vh;
+    color:rgb(22, 22, 80);
+}
+
+.footer-link {
+    color: rgb(22, 22, 80);
+    margin: 10px 15px;
+    padding: 6% 10%;
+    border:rgb(22, 22, 80) solid 2px;
+    border-radius: 100%;
+}
+
+.footer-link:hover{
+    background-color:rgb(22, 22, 80);
+    color: white;
+}
+
+.footer-lang-section{
+    height: 25%;
+}
+
+.footer-lang{
+    background-color: rgb(214, 214, 214);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    border-radius: 5%;
+    box-shadow: gray 0 0 10px;
 }
 
 .code-imgs{
