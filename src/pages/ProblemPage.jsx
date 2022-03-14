@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Navigation } from '../components/Navigation'
+import MenuIcon from '../assets/images/menuIcon.png'
+
 
 export const ProblemPage = () => {
     const problems = [
@@ -30,8 +32,8 @@ export const ProblemPage = () => {
                     <div className="sideNav w-75  d-flex flex-column justify-content-around align-items-center">
                         <div className='d-flex flex-column justify-content-around  w-100 px-4'>
                             <div className="d-flex justify-content-between align-items-center">
-                                <h3 className='mb-3 text-left'>Difficulty level</h3>
-                                <p class="material-icons">info</p>
+                                <h3 className=' text-left'>Difficulty level</h3>
+                                <img src={MenuIcon} alt="" className="img-fluid" width={25}/>
                             </div>
                             <div className=''>
                                 <div className='sideNav-btn mb-3'>
@@ -51,8 +53,8 @@ export const ProblemPage = () => {
                         </div>
                         <div className='d-flex flex-column justify-content-around  w-100 px-4'>
                             <div className="d-flex justify-content-between align-items-center">
-                                <h3 className='mb-3 text-left'>Topics</h3>
-                                <p class="material-icons">info</p>
+                                <h3 className=' text-left'>Topics</h3>
+                                <img src={MenuIcon} alt="" className="img-fluid" width={25}/>
                             </div>
                             <div className=''>
                                 <div className='sideNav-btn mb-3'>

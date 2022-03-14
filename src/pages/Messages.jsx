@@ -5,7 +5,7 @@ export const Messages = () => {
   return (
     <div className='App'>
       <Navigation />
-      <div className="row center-section mt-3">
+      <div className="row center-section center-section-bg mt-3">
         <div className="col-4 text-light">
           <div className="d-flex  align-items-center mt-2">
             <input className='bg-transparent form-control rounded mx-3' type="text" placeholder='Search'/>

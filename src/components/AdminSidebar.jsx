@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import MenuIcon from '../assets/images/menuIcon.png'
 
 export const AdminSidebar = ({ active }) => {
     const activeClass = {
@@ -35,8 +36,8 @@ export const AdminSidebar = ({ active }) => {
             <div className="sideNav w-75 d-flex flex-column justify-content-aroun align-items-center">
                 <div className='d-flex flex-column justify-content-between  w-100 mt-5 px-4'>
                     <div className="d-flex justify-content-between align-items-center mb-3">
-                        <h3 className='mb-3 text-left'>Admin Panel</h3>
-                        <p class="material-icons">info</p>
+                        <h3 className=' text-left '>Admin Panel</h3>
+                        <img src={MenuIcon} alt="" className="img-fluid" width={25}/>
                     </div>
                     <div>
                         <Link to={'/adminDashboard'} className="admin-link">
